@@ -4,5 +4,19 @@
 }
 
 .body{
-    background-color: red;
+    background: url("background.jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#board
+{
+    background: linear-gradient(black, red);
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid red;
 }
